@@ -6,14 +6,16 @@
 
 #root {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
+    padding: 10px 0;
 }
 
-.App {
+.body {
     width: 80%;
     margin: 0 auto;
 }
@@ -43,4 +45,36 @@ h1, h2 {
 .post-exit-active {
     transform: translateX(-350px);
     transition: opacity 500ms ease-in;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #505050;
+}
+
+.post__btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.error__title {
+    color: red;
+}
+
+.counter__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 0;
 }

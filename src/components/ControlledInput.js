@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import MyInput from "./UI/input/MyInput";
+import MyInput from "./UI/MyInput/MyInput";
 
-const ControledInput = () => {
+const ControlledInput = () => {
     const [inputVal, setInputVal] = useState('text...')
 
     return (
@@ -17,4 +17,4 @@ const ControledInput = () => {
     );
 };
 
-export default ControledInput;
+export default ControlledInput;

@@ -1,0 +1,30 @@
+.navbar__wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__buttons {
+    flex-grow: 0;
+    margin-right: auto;
+}
+
+.navbar__links {
+    flex-grow: 9;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar__list {
+    padding: 5px 10px;
+}
+
+.navbar__text {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    color: teal;
+}

@@ -1,6 +1,7 @@
 .myBtn {
     margin: 5px 5px 0 0;
     padding: 5px 15px;
+    min-width: 100px;
     color: teal;
     font-size: 14px;
     background: transparent;

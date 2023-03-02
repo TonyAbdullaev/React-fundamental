@@ -1,5 +1,5 @@
 import React from 'react';
-import MyButton from "./UI/button/MyButton";
+import MyButton from "./UI/MyButton/MyButton";
 
 class ClassCounter extends React.Component {
     constructor(props) {
@@ -21,11 +21,13 @@ class ClassCounter extends React.Component {
 
     render() {
         return (
-            <>
+            <div className="counter__wrapper">
                 <h2>Class component: {this.state.count}</h2>
-                <MyButton onClick={this.increment}>Increment</MyButton>
-                <MyButton onClick={this.decrement}>Decrement</MyButton>
-            </>
+                <div>
+                    <MyButton onClick={this.increment}>Increment</MyButton>
+                    <MyButton onClick={this.decrement}>Decrement</MyButton>
+                </div>
+            </div>
         )
     }
 }
